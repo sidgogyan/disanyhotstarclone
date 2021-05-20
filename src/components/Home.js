@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ImageSlider from './ImgSlider';
+import Viewers from './Viewers'
 
 
 
@@ -8,6 +9,8 @@ function Home() {
     return (
        <Container>
 <ImageSlider/>
+<Viewers/>
+
        </Container>
     )
 }
